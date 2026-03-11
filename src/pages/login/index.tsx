@@ -37,7 +37,7 @@ export default function Login() {
         </View>
 
         <Text style={styles.title}>
-          {isLogin ? 'Bem vindo ao ...' : 'Crie sua conta'}
+          {isLogin ? 'Bem vindo ao .... ' : 'Crie sua conta'}
         </Text>
         <Text style={styles.subtitle}>
           {isLogin ? 'Faça o Login para Continuar' : 'Cadastre-se para continuar'}

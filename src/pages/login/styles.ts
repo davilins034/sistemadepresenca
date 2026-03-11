@@ -16,8 +16,8 @@ export const styles = StyleSheet.create({
     borderRadius: 24,
     padding: 30,
     alignItems: 'center',
-    elevation: 5, // Sombra para Android
-    shadowColor: '#000', // Sombra para iOS
+    elevation: 5,
+    shadowColor: '#000',
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.1,
     shadowRadius: 8,
@@ -25,7 +25,7 @@ export const styles = StyleSheet.create({
   logoContainer: {
     width: 60,
     height: 60,
-    backgroundColor: theme.colors.primary + '1A', // Roxo com transparência
+    backgroundColor: theme.colors.primary + '1A',
     borderRadius: 30,
     justifyContent: 'center',
     alignItems: 'center',
