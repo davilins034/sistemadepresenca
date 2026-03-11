@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "appmobile",
+    "slug": "appmobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./src/assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./src/assets/icon.png"
+      }
+    },
+    "web": {
+      "favicon": "./src/assets/icon.png"
+    }
+  }
+}
