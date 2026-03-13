@@ -3,12 +3,10 @@ import { View, Text, StyleSheet, FlatList, TouchableOpacity, Image, Dimensions }
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 import Animated, { useSharedValue, useAnimatedStyle, withSpring } from 'react-native-reanimated';
 
-// Importando o tema que você mostrou na imagem
 import { theme } from '../../global/styles'; 
 
 const { width } = Dimensions.get('window');
 
-// Definindo o dado fora para o TS não reclamar
 const MATERIAS = [
   { id: '1', titulo: 'Back-End Frameworks', prof: 'nome professor', icone: 'server' },
   { id: '2', titulo: 'Desenvolvimento Móvel', prof: 'nome professor', icone: 'cellphone' },

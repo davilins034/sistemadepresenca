@@ -11,7 +11,7 @@ export default function Login() {
   const navigation = useNavigation();
 
   function handleAuth() {
-    // Navega para a tela Dashboard que configuramos nas rotas
+    
     navigation.navigate('Dashboard' as never); 
   }
 
