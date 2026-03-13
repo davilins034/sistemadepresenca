@@ -5,10 +5,10 @@ import { theme } from '../global/styles';
 export function Input({ ...rest }: TextInputProps) {
   return (
     <View style={styles.container}>
-      <TextInput 
-        style={styles.input} 
+      <TextInput
+        style={styles.input}
         placeholderTextColor={theme.colors.textLight}
-        {...rest} 
+        {...rest}
       />
     </View>
   );
@@ -20,13 +20,14 @@ const styles = StyleSheet.create({
     marginBottom: 16,
   },
   input: {
+    width: '100%',
     height: 50,
-    backgroundColor: theme.colors.white,
+    backgroundColor: theme.colors.white || '#FFFFFF',
     borderWidth: 1,
-    borderColor: theme.colors.border,
+    borderColor: theme.colors.border || '#E5E5E5',
     borderRadius: 12,
     paddingHorizontal: 16,
     fontSize: 16,
-    color: theme.colors.text,
+    color: theme.colors.text || '#000000',
   }
 });
